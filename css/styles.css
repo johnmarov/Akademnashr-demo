@@ -6,9 +6,17 @@ body {
 }
 .site-header {
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header-actions {
+  display: flex;
+  align-items: center;
 }
 .sitenav-list {
 list-style: none;
+display: flex;
 }
 .sitenav-link a {
 font-weight: 500;
@@ -29,6 +37,9 @@ text-decoration: none;
 .hero {
 background-color: #252420;
 color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 .hero-content {
 width: 390px;
@@ -57,6 +68,11 @@ font-family: "Roboto Condensed", "Roboto" sans-serif;
 .feauture {
   width: 340px;
 }
+.feautures-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
 .feature-icon-wrapper {
   width: 100px;
   height: 100px;
@@ -70,6 +86,9 @@ font-family: "Roboto Condensed", "Roboto" sans-serif;
 .promo {
   background-color: #252420;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .promo-content {
 width: 440px;
@@ -90,12 +109,23 @@ object-fit: cover;
 .site-footer {
 background-color: #f8f8f8;
 }
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-footer-socials{
+  display: flex;
+}
 .site-footer ul {
   list-style: none;
 }
 .site-footer-divider {
 background-color: background: rgba(37, 36, 32, 0.5);
 height: 2px;
+}
+.site-footer-botton {
+  display: flex;
 }
 .site-footer-links a {
 text-decoration: none;
