@@ -15,7 +15,7 @@ padding-left: 20px;
 margin-left: auto;
 margin-right: auto;
 }
-* {
+{
   box-sizing: border-box;
 }
 *:focus {
